@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'antd';
 
 function App() {
   const [test, setTest] = useState(1)
@@ -20,6 +21,7 @@ function App() {
         >
           {`Learn React ${test}`}
         </a>
+        <Button type="primary">Primary Button</Button>
       </header>
     </div>
   );
