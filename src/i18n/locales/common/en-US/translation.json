@@ -1,0 +1,8 @@
+{
+  "common": {
+    "username": "Username",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "submit": "Submit"
+  }
+}

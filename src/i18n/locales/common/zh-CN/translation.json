@@ -1,0 +1,8 @@
+{
+  "common": {
+    "username": "用户",
+    "password": "密码",
+    "rememberMe": "记住我",
+    "submit": "提交"
+  }
+}
