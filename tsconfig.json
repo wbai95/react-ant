@@ -25,6 +25,8 @@
       "@/*": ["src/*"],
       "@page/*": ["src/pages/*"],
       "@component/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@modules/*": ["node_modules/*"]
     }
   },
   "include": [

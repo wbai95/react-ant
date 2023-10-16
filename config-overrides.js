@@ -9,7 +9,9 @@ module.exports = override(
   addWebpackAlias({
     '@': path.resolve(__dirname, './src'),
     '@page': path.resolve(__dirname, './src/pages'),
-    '@component': path.resolve(__dirname, './src/components')
+    '@component': path.resolve(__dirname, './src/components'),
+    '@utils/*': path.resolve(__dirname, './src/utils/*'),
+    '@modules/*': path.resolve(__dirname, './node_modules/*')
   }),
   addDecoratorsLegacy()
 );

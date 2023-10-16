@@ -4,5 +4,9 @@
     "password": "密码",
     "rememberMe": "记住我",
     "submit": "提交"
+  },
+  "entry": {
+    "usernameErrorMsg": "请输入用户名!",
+    "passwordErrorMsg": "请输入密码!"
   }
 }

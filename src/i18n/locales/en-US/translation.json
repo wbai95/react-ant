@@ -1,0 +1,12 @@
+{
+  "common": {
+    "username": "username",
+    "password": "password",
+    "rememberMe": "remember me",
+    "submit": "submit"
+  },
+  "entry": {
+    "usernameErrorMsg": "Please input your username!",
+    "passwordErrorMsg": "Please input your password!"
+  }
+}

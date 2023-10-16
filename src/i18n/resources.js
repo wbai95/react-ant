@@ -1,14 +1,15 @@
-import { langCommon } from './locales/common';
+import en_lng from './locales/en-US/translation.json';
+import zh_lng from './locales/zh-CN/translation.json';
 
 const resources = {
   zh: {
     translation: {
-      ...langCommon.zh_common
+      ...zh_lng
     }
   },
   en: {
     translation: {
-      ...langCommon.en_common
+      ...en_lng
     }
   }
 };
