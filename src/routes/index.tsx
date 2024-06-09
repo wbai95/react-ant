@@ -8,18 +8,9 @@ export interface RouteType {
   children?: Array<RouteType>;
 }
 
-const EntryPage = lazy(() => import('@/pages/Entry/index'));
 const LayoutPage = lazy(() => import('@page/App'));
 
 const routes: Array<RouteType> = [
-  {
-    path: '/',
-    element: (
-      <Suspense fallback={<Spin />}>
-        <EntryPage />
-      </Suspense>
-    )
-  },
   {
     path: '/*',
     element: (
